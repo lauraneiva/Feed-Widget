@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Feed</title>
+  <style>
+    body {font-family: sans-serif; background:#fff; margin:0; padding:10px;}
+    .grid {display:grid; grid-template-columns: repeat(3,1fr); gap:5px; max-width:400px; margin:auto;}
+    .grid img {width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:5px;}
+    .header {text-align:center; margin-bottom:15px;}
+  </style>
+</head>
+<body>
+  <div class="header"><h2>@seu_usuario</h2></div>
+  <div class="grid">
+    <a href="#"><img src="https://via.placeholder.com/300?text=1"></a>
+    <a href="#"><img src="https://via.placeholder.com/300?text=2"></a>
+    <a href="#"><img src="https://via.placeholder.com/300?text=3"></a>
+    <a href="#"><img src="https://via.placeholder.com/300?text=4"></a>
+    <a href="#"><img src="https://via.placeholder.com/300?text=5"></a>
+    <a href="#"><img src="https://via.placeholder.com/300?text=6"></a>
+  </div>
+</body>
+</html>
